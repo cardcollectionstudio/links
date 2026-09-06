@@ -647,3 +647,12 @@
 	--button-background:#0B5CFF;
   --button-border:1px solid #FFFFFF;
 }
+
+/* Avatar Light/Dark Toggle */
+.avatar-dark { display: none; }
+html.theme-dark .avatar-light { display: none; }
+html.theme-dark .avatar-dark { display: block; margin-bottom: 32px; }
+@media (prefers-color-scheme: dark) {
+  html.theme-auto .avatar-light { display: none; }
+  html.theme-auto .avatar-dark { display: block; margin-bottom: 32px; }
+}
