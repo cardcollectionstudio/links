@@ -430,6 +430,12 @@
 	--button-background:#5A31F4;
 }
 
+/* Shopee */
+.button-shopee {
+	--button-text: #FEFEFD;
+	--button-background: #ED4E2F;
+}
+
 /* Signal */
 .button-signal {
 	--button-text:#ffffff;
@@ -537,6 +543,12 @@
 	--button-text:#ffffff;
 	--button-background:#000000;
 	--button-border:1px solid #FFFFFF;
+}
+
+/* Tokopedia */
+.button-tokopedia {
+	--button-text: #F7F5E8;
+	--button-background: #4D8D40;
 }
 
 /* Trello */
